@@ -1,0 +1,50 @@
+[
+    {
+    "title":"size",
+    "imagine":"./imagini/wom shirt.webp",
+     "categorie":"women",
+     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "pret":30
+
+},
+ {
+    "title":"size",
+    "imagine":"./imagini/Wom Tshirts.jpg",
+     "categorie":"women",
+     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "pret":30
+
+},
+ {
+    "title":"size",
+    "imagine":"./imagini/women t shir.jpg",
+     "categorie":"women",
+     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "pret":30
+
+},
+ {
+    "title":"size",
+    "imagine":"./imagini/women t shirt.jpg",
+     "categorie":"women",
+     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "pret":30
+
+},
+  {
+    "title":"size",
+    "imagine":"./imagini/women t-shirt.webp",
+     "categorie":"women",
+     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "pret":30
+
+},
+  {
+    "title":"size",
+    "imagine":"./imagini/xs448_1_cloudzoom.jpg",
+     "categorie":"women",
+     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "pret":30
+
+}
+]
