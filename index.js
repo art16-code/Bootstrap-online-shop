@@ -13,7 +13,8 @@ function display (data){
         var items = document.createElement("div");
         items.classList.add("col-lg-3", "col-md-4","col-sm-6")
        items.innerHTML = `<div class="card>
-  <img src="${element.imagine}" class="card-img-top" alt="...">
+  <img src="./imagini/copii sh1.jpg" >
+  <img src="${element.image}" class="custom-card-img">
   <div class="card-body">
     <h5 class="card-title">${element.title}</h5>
    
@@ -22,16 +23,13 @@ function display (data){
 </div>`
 containerClothes.appendChild(items);
 console.log(element.imagine);
-    });
+    })
   
 };
-/*
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>*/
+var women =document.getElementById("women");
+var men = document.getElementById("men");
+var kids = document.getElementById("kids");
+women.addEventListener("click", function(){
+
+});
 

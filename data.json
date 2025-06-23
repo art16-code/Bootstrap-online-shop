@@ -1,50 +1,176 @@
 [
     {
     "title":"size",
-    "imagine":"./imagini/wom shirt.webp",
-     "categorie":"women",
-     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
-     "pret":30
+    "image":"./imagini/wom shirt.webp",
+     "category":"women",
+     "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "price":30
 
 },
  {
     "title":"size",
-    "imagine":"./imagini/Wom Tshirts.jpg",
-     "categorie":"women",
-     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
-     "pret":30
+    "image":"./imagini/Wom Tshirts.jpg",
+     "category":"women",
+     "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "price":30
 
 },
  {
     "title":"size",
-    "imagine":"./imagini/women t shir.jpg",
-     "categorie":"women",
-     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
-     "pret":30
+    "image":"./imagini/women t shir.jpg",
+     "category":"women",
+     "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "price":30
 
 },
  {
     "title":"size",
-    "imagine":"./imagini/women t shirt.jpg",
-     "categorie":"women",
-     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
-     "pret":30
+    "image":"./imagini/women t shirt.jpg",
+     "category":"women",
+     "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "price":30
 
 },
   {
     "title":"size",
-    "imagine":"./imagini/women t-shirt.webp",
-     "categorie":"women",
-     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
-     "pret":30
+    "image":"./imagini/women t-shirt.webp",
+     "category":"women",
+     "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "price":30
 
 },
   {
     "title":"size",
-    "imagine":"./imagini/xs448_1_cloudzoom.jpg",
-     "categorie":"women",
-     "descriere":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
-     "pret":30
+    "image":"./imagini/xs448_1_cloudzoom.jpg",
+     "category":"women",
+     "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+     "price":30
 
+},
+{
+  "title":"size",
+  "image":"./imagini/copii sh1.jpg",
+  "category":"kids",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 30
+},
+{
+  "title":"size",
+  "image":"./imagini/copii sh2.jpg",
+  "category":"kids",
+  "description":"quasi quae omnis quas velit ab?",
+  "price":47
+},
+{
+  "title":"size",
+  "image":"./imagini/copii sh3.jpg",
+  "category":"kids",
+  "description":" Lorem ipsum dolor sit amet",
+  "price": 59
+},
+{
+  "title":"size",
+  "image":"./imagini/men t shirt.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+  "price":100 
+},
+{
+  "title":"size",
+  "image":"./imagini/men t shirt1.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet",
+  "price": 110
+},
+{
+  "title":"size",
+  "image":"./imagini/men t shirt3.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 80
+},
+{
+  "title":"size",
+  "image":"./imagini/men t shirt2.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+  "price": 90
+},
+{
+  "title":"size",
+  "image":"./imagini/men t shirt4.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+  "price":75 
+},
+{
+  "title":"size",
+  "image":"./imagini/pexels-airamdphoto-32580920.jpg",
+  "category":"women",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 65
+},
+{
+  "title":"size",
+  "image":"./imagini/pexels-rdne-7310144.jpg",
+  "category":"women",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 80
+},
+{
+  "title":"size",
+  "image":"./imagini/shoes m1.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 150
+},
+{
+  "title":"size",
+  "image":"./imagini/shoesm2.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 100
+},
+{
+  "title":"size",
+  "image":"./imagini/shoes m3.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 110
+},
+{
+  "title":"size",
+  "image":"./imagini/shoes m4.jpg",
+  "category":"men",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 70
+},
+{
+  "title":"size",
+  "image":"./imagini/tricou copii1.jpg",
+  "category":"kids",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 60
+},
+{
+  "title":"size",
+  "image":"./imagini/tricou copii2.jpg",
+  "category":"kids",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+  "price":78 
+},
+{
+  "title":"size",
+  "image":"./imagini/tricou copii3.jpg",
+  "category":"kids",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
+  "price": 80
+},
+{
+  "title":"size",
+  "image":"./imagini/tricou copii4.jpg",
+  "category":"kids",
+  "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
+  "price": 50
 }
 ]

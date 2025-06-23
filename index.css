@@ -8,3 +8,8 @@
     width: 100%;
     overflow: hidden !important;
 }
+.custom-card-img{
+ height: 200px;
+ max-width: 100% !important;
+ margin:0 auto;
+}
