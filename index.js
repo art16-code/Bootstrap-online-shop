@@ -1,35 +1,55 @@
 var data;
 fetch("/data.json")
-.then((response) =>response.json())
-.then((jsonData) =>{
- data = jsonData;
- display(data);
- 
+.then((response) => response.json())
+.then((jsonData) => {
+    data = jsonData;
+    display(data); 
 })
-.catch((error) =>console.log(error));
+.catch((error) => console.log(error));
+
 var containerClothes = document.getElementById("container-clothes");
-function display (data){
-    data.forEach(element => {
+
+function display(data) {
+    containerClothes.innerHTML = "";
+    data.forEach((element,index) => {
         var items = document.createElement("div");
-        items.classList.add("col-lg-3", "col-md-4","col-sm-6")
-       items.innerHTML = `<div class="card>
-  <img src="./imagini/copii sh1.jpg" >
-  <img src="${element.image}" class="custom-card-img">
-  <div class="card-body">
-    <h5 class="card-title">${element.title}</h5>
-   
-    <a href="produs.html" class="btn btn-primary">View more</a>
-  </div>
-</div>`
-containerClothes.appendChild(items);
-console.log(element.imagine);
+         items.setAttribute("data-index",index);
+        items.classList.add("col-lg-3", "col-md-4", "col-sm-6","item-card");
+        items.innerHTML = `
+            <div class="card">
+                <img src="${element.image}" class="custom-card-img">
+                <div class="card-body">
+                    <h5 class="card-title">${element.title}</h5>
+                    <p class="card-text">${element.description}</p>
+                    <p class="card-price">$${element.price}</p>
+                    <a href="produs.html" class="btn btn-primary">View more</a>
+                </div>
+            </div>`;
+        containerClothes.appendChild(items);
+    });
+    var card = document.getElementsByClassName("item-card");
+    Array.from(card).forEach(card =>{
+        card.addEventListener("click", function(){
+        localStorage.setItem("selectedItems",this.getAttribute("data-index"));
+        })
     })
-  
-};
-var women =document.getElementById("women");
-var men = document.getElementById("men");
-var kids = document.getElementById("kids");
-women.addEventListener("click", function(){
 
+    
+
+}
+
+var women = document.getElementById("women");
+women.addEventListener("click", function() {
+    var filteredData = data.filter(item => item.category === "women");
+    display(filteredData);
 });
-
+var men = document.getElementById("men");
+men.addEventListener("click", function(){
+  var filteredData = data.filter(item => item.category==="men");
+  display(filteredData);
+});
+var kids = document.getElementById("kids");
+kids.addEventListener("click", function(){
+  var filteredData = data.filter(item => item.category==="kids");
+  display(filteredData);
+});
