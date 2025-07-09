@@ -13,3 +13,16 @@
  max-width: 100% !important;
  margin:0 auto;
 }
+.item{
+width: 50%;
+
+}
+.item img{
+    max-width: 60%;
+}
+.btn-lg{
+    width: 100%;
+}
+.d-flex >div{
+  width: 50%;  
+}

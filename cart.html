@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    
+   
  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">Zara</a>
@@ -39,15 +38,71 @@
     </div>
   </div>
 </nav>
+<div class="container-lg">
+  <div class="row"></div>
+    <div class="row d-flex justify-content-between">
+  <div>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="city" name="city" placeholder="city">
+      <label for="city">
+         City
+      </label>
 
-
-<div class="container" id="items">
-   
+    </div>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="street" name="street" placeholder="street">
+      <label for="street">
+        Street
+      </label>
+    </div>
+    
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="House-number" name="House-number" placeholder="House number">
+      <label for="House-number">
+        House number
+      </label>
+    </div>
+    
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="flat-number" name="flat-number" placeholder="flat-number">
+      <label for="flat-number">
+        Flat number
+      </label>
+    </div>
+  </div>
+  <div>
+    
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="Name" name="Name" placeholder="Name">
+      <label for="Name">
+        Name
+      </label>
+    </div>
+    
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="Phone-number" name="Phone-number" placeholder="Phone-number">
+      <label for="Phone-number">
+        Phone-number
+      </label>
+    </div>
+    <div class="form-floating mb-3">
+      <input type="text" class="form-control" id="email" name="email" placeholder="your email">
+      <label for="email">
+        Email address
+      </label>
+    </div>
+    <select class="form-select" id="sel" >
+  <option selected>Select payment method</option>
+  <option value="cash">Cash payment</option>
+  <option value="online">Payment Online</option>
+  <option value="courier">Payment by card courier</option>
+</select>
+<button class="btn btn-primary" id="submit">Submit</button>
+  </div>
+    </div>
 </div>
 
-
 <!-- footer -->
-
 
 <div class="bg-secondary">
 <div class="container">
@@ -79,7 +134,8 @@
 </div>
 </div>
 
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-<script src="produs.js"></script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="cart.js"></script>
 </body>
 </html>

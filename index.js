@@ -53,3 +53,4 @@ kids.addEventListener("click", function(){
   var filteredData = data.filter(item => item.category==="kids");
   display(filteredData);
 });
+localStorage.setItem("itemsCard",JSON.stringify([]));
