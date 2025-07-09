@@ -81,4 +81,17 @@ if(payment!="Select payment method"){
 return valid;
 
 };
-
+var loc = localStorage.getItem("itemsCard");
+console.log(loc);
+loc =JSON.parse(loc);
+console.log(loc);
+var item = document.getElementById("item");
+fetch("/data.json")
+.then((response) => response.json())
+.then((jsonData) =>{
+    display(jsonData);
+ 
+});
+ function display(){
+    
+  }

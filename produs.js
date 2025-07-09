@@ -22,10 +22,18 @@ items.innerHTML =`
 </div>
 `
 container.appendChild(items);
-};
+var mat= JSON.parse(localStorage.getItem("itemsCard"))||[];
+if(!mat.includes(index)){
+    mat.push(index)
+    localStorage.setItem("itemsCard",JSON.stringify(mat));
+}
+}
+
+;
+
 var container = document.getElementById("items");
 
-var indexuri = JSON.parse(localStorage.getItem("itemsCard"))||[];
+// var indexuri = JSON.parse(localStorage.getItem("itemsCard"))||[];
 
-indexuri.push(index);
-localStorage.setItem("itemsCard",JSON.stringify(indexuri));
+// indexuri.push(index);
+// localStorage.setItem("itemsCard",JSON.stringify(indexuri));
