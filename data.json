@@ -1,6 +1,6 @@
 [
     {
-    "title":"size",
+    "title":"Long sleeve  shirt",
     "image":"./imagini/wom shirt.webp",
      "category":"women",
      "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
@@ -9,7 +9,7 @@
 
 },
  {
-    "title":"size",
+    "title":"Superdry T-shirt",
     "image":"./imagini/Wom Tshirts.jpg",
      "category":"women",
      "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
@@ -17,7 +17,7 @@
 
 },
  {
-    "title":"size",
+    "title":"White T-shirt",
     "image":"./imagini/women t shir.jpg",
      "category":"women",
      "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
@@ -25,7 +25,7 @@
 
 },
  {
-    "title":"size",
+    "title":"Women white t-shirt",
     "image":"./imagini/women t shirt.jpg",
      "category":"women",
      "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
@@ -33,7 +33,7 @@
 
 },
   {
-    "title":"size",
+    "title":"Light blue T-shirt ",
     "image":"./imagini/women t-shirt.webp",
      "category":"women",
      "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
@@ -41,7 +41,7 @@
 
 },
   {
-    "title":"size",
+    "title":"white sneakers",
     "image":"./imagini/xs448_1_cloudzoom.jpg",
      "category":"women",
      "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
@@ -49,126 +49,126 @@
 
 },
 {
-  "title":"size",
+  "title":"5-6 years sandal black color",
   "image":"./imagini/copii sh1.jpg",
   "category":"kids",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 30
 },
 {
-  "title":"size",
+  "title":"12-18 months  shoes",
   "image":"./imagini/copii sh2.jpg",
   "category":"kids",
   "description":"quasi quae omnis quas velit ab?",
   "price":47
 },
 {
-  "title":"size",
+  "title":"12-18 months brown shoes",
   "image":"./imagini/copii sh3.jpg",
   "category":"kids",
   "description":" Lorem ipsum dolor sit amet",
   "price": 59
 },
 {
-  "title":"size",
+  "title":"black T-shirt",
   "image":"./imagini/men t shirt.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
   "price":100 
 },
 {
-  "title":"size",
+  "title":"Completely white T-shirt for men",
   "image":"./imagini/men t shirt1.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet",
   "price": 110
 },
 {
-  "title":"size",
+  "title":"Short sleeve men T-shirt",
   "image":"./imagini/men t shirt3.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 80
 },
 {
-  "title":"size",
+  "title":"Men T-shirt,white color",
   "image":"./imagini/men t shirt2.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
   "price": 90
 },
 {
-  "title":"size",
+  "title":"Men white T-shirt",
   "image":"./imagini/men t shirt4.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
   "price":75 
 },
 {
-  "title":"size",
+  "title":"White women T-shirt,crazy drawing",
   "image":"./imagini/pexels-airamdphoto-32580920.jpg",
   "category":"women",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 65
 },
 {
-  "title":"size",
+  "title":"Gray women T-shirt,short sleeve",
   "image":"./imagini/pexels-rdne-7310144.jpg",
   "category":"women",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 80
 },
 {
-  "title":"size",
+  "title":"Light brown men shoes",
   "image":"./imagini/shoes m1.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 150
 },
 {
-  "title":"size",
+  "title":"Black men shoes",
   "image":"./imagini/shoesm2.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 100
 },
 {
-  "title":"size",
+  "title":"Dark brown men shoes",
   "image":"./imagini/shoes m3.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 110
 },
 {
-  "title":"size",
+  "title":"Nike sport  shoes for men",
   "image":"./imagini/shoes m4.jpg",
   "category":"men",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 70
 },
 {
-  "title":"size",
+  "title":"11-12 years white T-shirt for boys",
   "image":"./imagini/tricou copii1.jpg",
   "category":"kids",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",
   "price": 60
 },
 {
-  "title":"size",
+  "title":"7-8 years funny T-shirt for boys ",
   "image":"./imagini/tricou copii2.jpg",
   "category":"kids",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
   "price":78 
 },
 {
-  "title":"size",
+  "title":"5-6 years T-shirt for boys",
   "image":"./imagini/tricou copii3.jpg",
   "category":"kids",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia maxime vel eligendi mollitia quasi quae omnis quas velit ab?",
   "price": 80
 },
 {
-  "title":"size",
+  "title":"5-6 years T-shirt for boys with funny signs",
   "image":"./imagini/tricou copii4.jpg",
   "category":"kids",
   "description":" Lorem ipsum dolor sit amet consectetur adipisicing  ab?",

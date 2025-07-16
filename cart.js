@@ -92,6 +92,21 @@ fetch("/data.json")
     display(jsonData);
  
 });
- function display(){
-    
+// jsonData este valoarea la sursa
+
+ function display(sursa){
+loc.forEach(index => {
+    // index este fiecare element din matricea loc din localStorage
+
+var product = sursa[index];  
+var create = document.createElement("div");
+create.classList.add("col-lg-2","col-md-4","col-sm-12");
+create.innerHTML = `
+<img src="${product.image}">
+<p>${product.title}</p>
+<p>${product.price}</p>
+`
+item.appendChild(create);
+});
   }
+  

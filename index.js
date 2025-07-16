@@ -53,3 +53,16 @@ kids.addEventListener("click", function(){
   var filteredData = data.filter(item => item.category==="kids");
   display(filteredData);
 });
+
+var searchInput = document.getElementById("search");
+var searchBtn = document.getElementById("search-btn");
+searchBtn.addEventListener("click",function(e){
+    e.preventDefault();
+var memory = searchInput.value.toLowerCase();
+var item = data.filter(item =>{
+    item.title.toLowerCase().includes(memory);
+console.log(  item.title.toLowerCase().includes(memory));
+});
+console.log(item);
+});
+
