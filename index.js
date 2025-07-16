@@ -56,13 +56,14 @@ kids.addEventListener("click", function(){
 
 var searchInput = document.getElementById("search");
 var searchBtn = document.getElementById("search-btn");
+
 searchBtn.addEventListener("click",function(e){
     e.preventDefault();
-var memory = searchInput.value.toLowerCase();
-var item = data.filter(item =>{
-    item.title.toLowerCase().includes(memory);
-console.log(  item.title.toLowerCase().includes(memory));
+    const query = searchInput.value.toLowerCase();
+    const filteredItems = data.filter(item => 
+        item.title.toLowerCase().includes(query)
+    );
+    display(filteredItems);
 });
-console.log(item);
-});
+
 
